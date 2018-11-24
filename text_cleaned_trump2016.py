@@ -10,7 +10,7 @@ pattern3 = r'@'
 pattern4 = r'\s'
 pattern5 = r'#'
 
-complete_pattern = r'@|#|\s|(http\S+)|(RT @\S+)'
+complete_pattern = r'(@\w+)|#|\s|(http\S+)|(RT @\S+)'
 #text = re.sub(pattern2, "", text)
 #text = re.sub(pattern3, "", text)
 #text = re.sub(pattern4, " ", text)
